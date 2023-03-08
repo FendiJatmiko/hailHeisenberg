@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import subprocess
+
+output = subprocess.run("echo ---====== Hail Heisenberg ======---- | cowsay", shell=True)
+
